@@ -1,0 +1,69 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-block;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #C3CFE2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .container {
+  display: grid;
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  border: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 0% 0% 5% 5%;
+}
+body .container p {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #686DE0;
+  border-radius: 0% 0% 5% 5%;
+}
+footer h3 {
+  color: #fff;
+}
+footer h3 .girl {
+  border-color: #fff;
+  position: relative;
+  -webkit-clip-path: circle();
+  clip-path: circle();
+}
+
+button {
+  z-index: 1000;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+button:hover {
+  opacity: 100;
+}/*# sourceMappingURL=style.css.map */

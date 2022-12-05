@@ -1,0 +1,11 @@
+button {
+    z-index: 1000;
+    opacity:0;
+    display:flex;
+    justify-content: center;
+  &:hover {
+    opacity:100;
+  
+  }
+   
+  }
